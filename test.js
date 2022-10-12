@@ -6,11 +6,11 @@ describe('Testing FizzBuzz', () => {
     })
     
     test('test whether the number is a multiple of 3 ', () => {
-        expect(fizzbuzz(3)).toEqual('Fizz')
+        expect(fizzbuzz(15)).toEqual('Fizz')
     })
     
     test('test whether the number is a multiple of 5 ', () => {
-        expect(fizzbuzz(5)).toEqual('Buzz')
+        expect(fizzbuzz(15)).toEqual('Buzz')
     })
 
     test('test whether the number is a multiple of 3 and 5', () => {
